@@ -1,0 +1,22 @@
+.malta {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(1440px /18 );
+    height: 90px;
+    background: url(Malta-boop.png);
+    animation: animatie 800ms steps(18) infinite;
+    text-align: center;
+    margin: 22px -60px;
+}
+
+@keyframes animatie {
+    from {
+        background-position: 1440px;
+    }
+    to {
+        background-position: 0;
+    }
+}

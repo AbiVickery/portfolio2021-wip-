@@ -1,0 +1,22 @@
+.juneBug {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(800px /10 );
+    height: 90px;
+    background: url(June\ Bug-fly.png);
+    animation: animater 750ms steps(10) infinite;
+    text-align: center;
+    margin: -8px 49px;
+}
+
+@keyframes animater {
+    from {
+        background-position: 800px;
+    }
+    to {
+        background-position: 0px;
+    }
+}
