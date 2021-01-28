@@ -20,7 +20,7 @@
 
 .box-area li {
     position: absolute;
-    display: block;
+    display: ruby-base;
     list-style: none;
     width: 25px;
     height: 25px;
