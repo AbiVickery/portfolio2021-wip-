@@ -1,3 +1,30 @@
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    background: -webkit-linear-gradiendt(#650b81, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -91,7 +118,7 @@
     transform: translate(-50%, -50%);
     width: calc(1280px /16 );
     height: 90px;
-    background: url(Pride\ SpK-trot.png);
+    background: url(Pride\ SpK2-trot.png);
     animation: animated 750ms steps(16) infinite;
     text-align: center;
     margin: 22px 6px;
