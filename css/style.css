@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'kaushan script', cursive;
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
