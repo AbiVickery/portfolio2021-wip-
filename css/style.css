@@ -1,6 +1,7 @@
 
 body{
     font-family: 'kaushan script', cursive;
+    scroll-behavior: smooth;
 }
 
 .nav {
